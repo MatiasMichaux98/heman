@@ -1,0 +1,126 @@
+
+.medio{
+    display: flex;
+}
+.dudas{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 10%;
+    font-family: sans-serif;
+    font-size: 16px;
+    
+}
+.dudas h1{
+    color: white;
+    margin-top: 30%;
+ 
+}
+.dudas h4{
+    color: rgb(0, 0, 0);
+    
+}
+.dudas p{
+    color: rgb(0, 0, 0);;
+   margin-top: 10%;
+}
+
+
+
+form{
+    padding: 10px 220px 50px 25px ;
+    background-color: transparent;
+    text-align: center;
+    width: 340px;
+    float: right;
+    margin-right: 40% ;
+    margin-top: 50px;
+   
+    
+   
+}
+
+h2{
+    color: rgb(7, 7, 7);
+    font-size: 35px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-right: 20%;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+    font-size: 16px;
+  
+}
+
+.campo {
+    flex: 1;
+    display:flex;
+    width: 534px;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    text-align: start;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+textarea {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px 0px 0px 10px;
+    font-family: serif;
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px 0px 0px 10px;
+    font-family: serif;
+    
+}
+
+button{
+    padding: 11px ;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: #86868B;
+    font-size: 15px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+/*medias*/
+@media screen and (max-width: 768px) {
+    .medio {
+      flex-direction: column;
+    }
+    
+    .dudas, .formulario {
+      margin: 0;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .dudas {
+      padding: 10px;
+    }
+    
+    .formulario {
+      padding: 10px;
+    }
+  }
+  
