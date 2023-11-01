@@ -4,7 +4,7 @@ const mercadopago = new MercadoPago("TEST-7a98890d-5eb1-48bd-b3d5-31a9e6751d8a",
 
 document.getElementById("checkout-btn").addEventListener("click", function () {
   const orderData = {
-    quantity: document.getElementById("quantity").innerHTML,
+    quantity: 1, 
     price: document.getElementById("unit-price").innerHTML,
   };
 
