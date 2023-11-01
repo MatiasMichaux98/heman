@@ -27,8 +27,8 @@ h4 {
 .formulario {
     width: 50%;
     float: right;
-    margin: 0 auto; /* Agrega esto para centrar horizontalmente el formulario */
-    text-align: left; /* Alinea el texto del formulario a la izquierda */
+    margin: 0 auto; 
+    text-align: left; 
 }
 
 #form {
