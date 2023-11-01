@@ -1,126 +1,82 @@
-
-.medio{
-    display: flex;
-}
-.dudas{
-    text-align: left;
-    margin-left: 100px;
-    margin-right: 10%;
-    font-family: sans-serif;
-    font-size: 16px;
-    
-}
-.dudas h1{
-    color: white;
-    margin-top: 30%;
- 
-}
-.dudas h4{
-    color: rgb(0, 0, 0);
-    
-}
-.dudas p{
-    color: rgb(0, 0, 0);;
-   margin-top: 10%;
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-
-
-form{
-    padding: 10px 220px 50px 25px ;
-    background-color: transparent;
-    text-align: center;
-    width: 340px;
-    float: right;
-    margin-right: 40% ;
-    margin-top: 50px;
-   
-    
-   
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-h2{
-    color: rgb(7, 7, 7);
-    font-size: 35px;
-}
-.formulario {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin-right: 20%;
-}
-
-.fila {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    color: white;
-    font-size: 16px;
-  
-}
-
-.campo {
-    flex: 1;
-    display:flex;
-    width: 534px;
-    flex-direction: column;
-    color: rgb(0, 0, 0);
-    text-align: start;
-    font-size: 16px;
-    margin-top: 20px;
+.titulo {
+    font-size: 24px;
+    color: #333;
     margin-bottom: 20px;
 }
 
+h4 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el formulario de contacto */
+.formulario {
+    width: 50%;
+    float: right;
+    margin: 0 auto; /* Agrega esto para centrar horizontalmente el formulario */
+    text-align: left; /* Alinea el texto del formulario a la izquierda */
+}
+
+#form {
+    margin: 20px 0;
+    text-align: left;
+}
+
 label {
-    margin-bottom: 5px;
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
 }
 
+input[type="text"],
 textarea {
-    height: 50px;
-    border-radius: 10px;
-    border: 1px solid black;
-    padding: 5px 0px 0px 10px;
-    font-family: serif;
-}
-input{
-    height: 30px;
-    border-radius: 10px;
-    border: 1px solid black;
-    padding: 5px 0px 0px 10px;
-    font-family: serif;
-    
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
-button{
-    padding: 11px ;
-    width: 150px;
-    border-radius: 15px;
+input[type="submit"] {
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 20px;
     border: none;
-    outline: none;
-    background: #86868B;
-    font-size: 15px;
-    font-family: cursive;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 18px;
 }
 
-/*medias*/
-@media screen and (max-width: 768px) {
-    .medio {
-      flex-direction: column;
-    }
-    
-    .dudas, .formulario {
-      margin: 0;
-      width: 100%;
-      text-align: center;
-    }
-    
-    .dudas {
-      padding: 10px;
-    }
-    
-    .formulario {
-      padding: 10px;
+input[type="submit"]:hover {
+    background-color: #128c7e;
+}
+
+/* Enlace para enviar correo */
+#emailIA {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: blue;
+}
+
+@media (max-width: 400px) {
+    h4{
+        font-size: 15px;
     }
   }
-  
